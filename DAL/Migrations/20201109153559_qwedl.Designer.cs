@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DAL.Migrations
 {
     [DbContext(typeof(MusteriSistemiContext))]
-    [Migration("20201109130011_initial")]
-    partial class initial
+    [Migration("20201109153559_qwedl")]
+    partial class qwedl
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

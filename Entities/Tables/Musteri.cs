@@ -13,7 +13,7 @@ namespace Entities.Tables
     {
         [Key]
         public Guid Id { get; set; } = Guid.NewGuid();
-        [DisplayName("as")]
+        [DisplayName("ad")]
         [Required]
         [MaxLength(150)]
         [MinLength(5)]

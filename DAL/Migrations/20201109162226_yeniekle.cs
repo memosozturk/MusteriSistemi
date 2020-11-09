@@ -2,7 +2,7 @@
 
 namespace DAL.Migrations
 {
-    public partial class aaa : Migration
+    public partial class yeniekle : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
