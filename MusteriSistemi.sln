@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{829F69D9-BB37-4940-BD86-3C2A4806AE9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{679E76F3-B32C-4D45-B2B1-651A8422B00A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{679E76F3-B32C-4D45-B2B1-651A8422B00A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{B0C97838-4A9F-4C98-B9E3-E75FD6C7F3F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{B0C97838-4A9F-4C98-B9E3-E75FD6C7F3F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{1C25C1C1-7D22-4138-9FF7-09021456C77B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{1C25C1C1-7D22-4138-9FF7-09021456C77B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{40A70E4E-0904-4659-81B1-E07633FBD067}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUI", "WebUI\WebUI.csproj", "{40A70E4E-0904-4659-81B1-E07633FBD067}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{829F69D9-BB37-4940-BD86-3C2A4806AE9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{829F69D9-BB37-4940-BD86-3C2A4806AE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{829F69D9-BB37-4940-BD86-3C2A4806AE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{829F69D9-BB37-4940-BD86-3C2A4806AE9F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{679E76F3-B32C-4D45-B2B1-651A8422B00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{679E76F3-B32C-4D45-B2B1-651A8422B00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{679E76F3-B32C-4D45-B2B1-651A8422B00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
